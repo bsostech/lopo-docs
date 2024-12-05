@@ -14,20 +14,10 @@ idempotent, because this is not dealt with automatically as with constructors._
 
 ## State Variables
 
-### lastInitializedRevision
-
-_Indicates that the contract has been initialized._
+### INITIALIZABLE_STORAGE
 
 ```solidity
-uint256 private lastInitializedRevision = 0;
-```
-
-### initializing
-
-_Indicates that the contract is in the process of being initialized._
-
-```solidity
-bool private initializing;
+bytes32 private constant INITIALIZABLE_STORAGE = 0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00;
 ```
 
 ### **\_\_**gap
@@ -44,6 +34,14 @@ _Modifier to use in the initializer function of a contract._
 
 ```solidity
 modifier initializer();
+```
+
+### onlyInitializing
+
+_Modifier to use when a function is restricted to the initialization phase._
+
+```solidity
+modifier onlyInitializing();
 ```
 
 ### getRevision
@@ -75,3 +73,34 @@ function isConstructor() private view returns (bool);
 | Name     | Type   | Description                                        |
 | -------- | ------ | -------------------------------------------------- |
 | `<none>` | `bool` | True if the function is running in the constructor |
+
+### \_getInitializableStorage
+
+```solidity
+function _getInitializableStorage() private pure returns (VersionedInitializableStorage storage $);
+```
+
+### \_getLastInitializedRevision
+
+```solidity
+function _getLastInitializedRevision() internal view returns (uint256);
+```
+
+### \_getInitializing
+
+```solidity
+function _getInitializing() internal view returns (bool);
+```
+
+## Structs
+
+### VersionedInitializableStorage
+
+_Indicates that the contract has been initialized._
+
+```solidity
+struct VersionedInitializableStorage {
+    uint256 lastInitializedRevision;
+    bool initializing;
+}
+```

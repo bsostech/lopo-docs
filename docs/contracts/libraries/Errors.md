@@ -70,6 +70,30 @@ Thrown when pool addresses provider is set to 0.
 error AddressesProviderZeroAddress();
 ```
 
+### GovernorZeroAddress
+
+Thrown when the new governor is zero address.
+
+```solidity
+error GovernorZeroAddress();
+```
+
+### ZeroAddress
+
+Thrown when the address is zero address.
+
+```solidity
+error ZeroAddress();
+```
+
+### ReentrancyGuardReentrantCall
+
+Thrown when a reentrancy lock is already set.
+
+```solidity
+error ReentrancyGuardReentrantCall();
+```
+
 ### PoolConfigurator_InvalidPoolAdmin
 
 Thrown when the pool admin set is not on the whitelist.
@@ -182,12 +206,12 @@ Thrown when vault is set to 0.
 error Globals_InvalidVault(address vault);
 ```
 
-### LoanManager_CallerNotSeller
+### Globals_CallerNotPendingGovernor
 
-Thrown when `msg.sender` is not the seller.
+Thrown when the caller is not penging governor
 
 ```solidity
-error LoanManager_CallerNotSeller(address expectedSeller_);
+error Globals_CallerNotPendingGovernor(address pendingGovernor_);
 ```
 
 ### LoanManager_InvalidReceivable
@@ -277,6 +301,14 @@ Thrown when an asset address is set to 0 for a loan manager.
 
 ```solidity
 error LoanManager_AssetZeroAddress();
+```
+
+### LoanManager_LoanNotFunded
+
+Thrown when the seller withraw fund before the loan be funded.
+
+```solidity
+error LoanManager_LoanNotFunded();
 ```
 
 ### WithdrawalManager_ZeroWindow

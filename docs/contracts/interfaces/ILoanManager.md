@@ -2,8 +2,8 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/interfaces/ILoanManager.sol)
 
-**Inherits:** [ILoanManagerEvents](/docs/reference/interfaces/ILoanManagerEvents.md),
-[ILoanManagerStorage](/docs/reference/interfaces/ILoanManagerStorage.md)
+**Inherits:** [ILoanManagerEvents](/docs/contracts/interfaces/ILoanManagerEvents.md),
+[ILoanManagerStorage](/docs/contracts/interfaces/ILoanManagerStorage.md)
 
 Creates and manages loans.
 

@@ -41,3 +41,18 @@ event AssetBurned(uint256 indexed tokenId_);
 | Name       | Type      | Description               |
 | ---------- | --------- | ------------------------- |
 | `tokenId_` | `uint256` | The id of the receivable. |
+
+### TransferGovernor
+
+Emitted when the governor is transferred.
+
+```solidity
+event TransferGovernor(address indexed oldGovernor, address indexed newGovernor);
+```
+
+**Parameters**
+
+| Name          | Type      | Description                      |
+| ------------- | --------- | -------------------------------- |
+| `oldGovernor` | `address` | The address of the old governor. |
+| `newGovernor` | `address` | The address of the new governor. |

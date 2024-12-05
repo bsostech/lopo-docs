@@ -2,10 +2,9 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/Receivable.sol)
 
-**Inherits:** [ReceivableStorage](/docs/reference/ReceivableStorage.md), Initializable,
+**Inherits:** [ReceivableStorage](/docs/contracts/ReceivableStorage.md), Initializable,
 ERC721Upgradeable, ERC721EnumerableUpgradeable, ERC721BurnableUpgradeable, UUPSUpgradeable,
-[Governable](/docs/reference/abstracts/Governable.md),
-[IReceivable](/docs/reference/interfaces/IReceivable.md)
+[IReceivable](/docs/contracts/interfaces/IReceivable.md)
 
 ## Functions
 
@@ -20,14 +19,14 @@ function _authorizeUpgrade(address newImplementation) internal override onlyGove
 _Initializes the Receivable._
 
 ```solidity
-function initialize(address initialGovernor_) external override initializer;
+function initialize(address isleGlobal_) external override initializer;
 ```
 
 **Parameters**
 
-| Name               | Type      | Description                  |
-| ------------------ | --------- | ---------------------------- |
-| `initialGovernor_` | `address` | The address of the governor. |
+| Name           | Type      | Description                    |
+| -------------- | --------- | ------------------------------ |
+| `isleGlobal_`  | `address` | The address of the isleGlobal. |
 
 ### createReceivable
 
@@ -84,6 +83,20 @@ function burnReceivable(uint256 tokenId_) external;
 | Name       | Type      | Description               |
 | ---------- | --------- | ------------------------- |
 | `tokenId_` | `uint256` | The id of the receivable. |
+
+### governor
+
+_Get governor from IsleGlobals._
+
+```solidity
+function governor() public view returns (address governor_);
+```
+
+**Returns**
+
+| Name        | Type      | Description                  |
+| ----------- | --------- | ---------------------------- |
+| `governor_` | `address` | The address of the governor. |
 
 ### \_beforeTokenTransfer
 

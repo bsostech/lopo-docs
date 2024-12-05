@@ -2,8 +2,7 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/interfaces/IReceivable.sol)
 
-**Inherits:** [IGovernable](/docs/reference/interfaces/IGovernable.md),
-[IReceivableEvent](/docs/reference/interfaces/IReceivableEvent.md)
+**Inherits:** [IReceivableEvent](/docs/contracts/interfaces/IReceivableEvent.md)
 
 ## Functions
 
@@ -76,3 +75,17 @@ function burnReceivable(uint256 tokenId_) external;
 | Name       | Type      | Description               |
 | ---------- | --------- | ------------------------- |
 | `tokenId_` | `uint256` | The id of the receivable. |
+
+### governor
+
+Returns the addres of the governor.
+
+```solidity
+function governor() external view returns (address governor_);
+```
+
+**Returns**
+
+| Name        | Type      | Description                  |
+| ----------- | --------- | ---------------------------- |
+| `governor_` | `address` | The address of the governor. |

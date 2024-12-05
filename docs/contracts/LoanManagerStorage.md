@@ -2,7 +2,7 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/LoanManagerStorage.sol)
 
-**Inherits:** [ILoanManagerStorage](/docs/reference/interfaces/ILoanManagerStorage.md)
+**Inherits:** [ILoanManagerStorage](/docs/contracts/interfaces/ILoanManagerStorage.md)
 
 ## State Variables
 

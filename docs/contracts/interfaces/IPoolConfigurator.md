@@ -3,8 +3,8 @@
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/interfaces/IPoolConfigurator.sol)
 
 **Inherits:**
-[IPoolConfiguratorStorage](/docs/reference/interfaces/IPoolConfiguratorStorage.md),
-[IPoolConfiguratorEvents](/docs/reference/interfaces/IPoolConfiguratorEvents.md)
+[IPoolConfiguratorStorage](/docs/contracts/interfaces/IPoolConfiguratorStorage.md),
+[IPoolConfiguratorEvents](/docs/contracts/interfaces/IPoolConfiguratorEvents.md)
 
 ## Functions
 

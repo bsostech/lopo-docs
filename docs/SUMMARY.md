@@ -54,6 +54,7 @@
 - [libraries](contracts/libraries/README.md)
   - [Errors](contracts/libraries/Errors.md)
   - [PoolDeployer](contracts/libraries/PoolDeployer.md)
+  - [ReentrancyGuardUpgradeable](contracts/libraries/ReentrancyGuardUpgradeable.md)
   - [types](contracts/libraries/types/README.md)
     - [PoolConfigurator](contracts/libraries/types/PoolConfigurator.md)
     - [Loan](contracts/libraries/types/Loan.md)

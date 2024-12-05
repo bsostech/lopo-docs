@@ -30,6 +30,7 @@
 - libraries
   - [Errors](contracts/libraries/Errors.md)
   - [PoolDeployer](contracts/libraries/PoolDeployer.md)
+  - [ReentrancyGuardUpgradeable](contracts/libraries/ReentrancyGuardUpgradeable.md)
   - types
     - [PoolConfigurator](contracts/libraries/types/PoolConfigurator.md)
     - [Loan](contracts/libraries/types/Loan.md)

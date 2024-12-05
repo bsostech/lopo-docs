@@ -2,7 +2,7 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/Pool.sol)
 
-**Inherits:** [IPool](/docs/reference/interfaces/IPool.md), ERC20Permit
+**Inherits:** [IPool](/docs/contracts/interfaces/IPool.md), ERC20Permit
 
 See the documentation in {IPool}.
 

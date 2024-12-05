@@ -3,7 +3,7 @@
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/WithdrawalManagerStorage.sol)
 
 **Inherits:**
-[IWithdrawalManagerStorage](/docs/reference/interfaces/IWithdrawalManagerStorage.md)
+[IWithdrawalManagerStorage](/docs/contracts/interfaces/IWithdrawalManagerStorage.md)
 
 ## State Variables
 

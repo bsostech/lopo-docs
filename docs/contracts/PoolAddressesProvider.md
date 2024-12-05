@@ -3,7 +3,7 @@
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/PoolAddressesProvider.sol)
 
 **Inherits:**
-[IPoolAddressesProvider](/docs/reference/interfaces/IPoolAddressesProvider.md)
+[IPoolAddressesProvider](/docs/contracts/interfaces/IPoolAddressesProvider.md)
 
 ## State Variables
 

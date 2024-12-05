@@ -3,9 +3,9 @@
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/PoolConfigurator.sol)
 
 **Inherits:**
-[VersionedInitializable](/docs/reference/libraries/upgradability/VersionedInitializable.md),
-[IPoolConfigurator](/docs/reference/interfaces/IPoolConfigurator.md),
-[PoolConfiguratorStorage](/docs/reference/PoolConfiguratorStorage.md)
+[VersionedInitializable](/docs/contracts/libraries/upgradability/VersionedInitializable.md),
+[IPoolConfigurator](/docs/contracts/interfaces/IPoolConfigurator.md),
+[PoolConfiguratorStorage](/docs/contracts/PoolConfiguratorStorage.md)
 
 See the documentation in {IPoolConfigurator}.
 

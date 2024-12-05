@@ -2,9 +2,9 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/WithdrawalManager.sol)
 
-**Inherits:** [WithdrawalManagerStorage](/docs/reference/WithdrawalManagerStorage.md),
-[IWithdrawalManager](/docs/reference/interfaces/IWithdrawalManager.md),
-[VersionedInitializable](/docs/reference/libraries/upgradability/VersionedInitializable.md)
+**Inherits:** [WithdrawalManagerStorage](/docs/contracts/WithdrawalManagerStorage.md),
+[IWithdrawalManager](/docs/contracts/interfaces/IWithdrawalManager.md),
+[VersionedInitializable](/docs/contracts/libraries/upgradability/VersionedInitializable.md)
 
 ## State Variables
 
@@ -351,7 +351,7 @@ function getRedeemableAmounts(
     public
     view
     override
-    returns (uint256 redeemableShares_, uint256 resultingAssets_, bool partialLiquidity_);
+    returns (uint256 redeemableShares_, uint256 resultingAssets_);
 ```
 
 ### \_poolConfigurator

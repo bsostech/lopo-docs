@@ -2,9 +2,10 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/LoanManager.sol)
 
-**Inherits:** [ILoanManager](/docs/reference/interfaces/ILoanManager.md), IERC721Receiver,
-[LoanManagerStorage](/docs/reference/LoanManagerStorage.md), ReentrancyGuard,
-[VersionedInitializable](/docs/reference/libraries/upgradability/VersionedInitializable.md)
+**Inherits:** [ILoanManager](/docs/contracts/interfaces/ILoanManager.md), IERC721Receiver,
+[LoanManagerStorage](/docs/contracts/LoanManagerStorage.md), 
+[VersionedInitializable](/docs/contracts/libraries/upgradability/VersionedInitializable.md),
+[ReentrancyGuardUpgradeable](/docs/contracts/libraries/ReentrancyGuardUpgradeable.md)
 
 ## State Variables
 

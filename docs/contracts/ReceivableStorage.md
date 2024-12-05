@@ -4,6 +4,12 @@
 
 ## State Variables
 
+### isleGlobal
+
+```solidity
+address public isleGlobal;
+```
+
 ### \_tokenIdCounter
 
 ```solidity

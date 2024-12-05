@@ -3,7 +3,7 @@
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/PoolConfiguratorStorage.sol)
 
 **Inherits:**
-[IPoolConfiguratorStorage](/docs/reference/interfaces/IPoolConfiguratorStorage.md)
+[IPoolConfiguratorStorage](/docs/contracts/interfaces/IPoolConfiguratorStorage.md)
 
 ## State Variables
 

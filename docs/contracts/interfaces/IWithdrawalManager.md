@@ -3,7 +3,7 @@
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/interfaces/IWithdrawalManager.sol)
 
 **Inherits:**
-[IWithdrawalManagerStorage](/docs/reference/interfaces/IWithdrawalManagerStorage.md)
+[IWithdrawalManagerStorage](/docs/contracts/interfaces/IWithdrawalManagerStorage.md)
 
 ## Functions
 
@@ -280,7 +280,7 @@ function getRedeemableAmounts(
 )
     external
     view
-    returns (uint256 redeemableShares_, uint256 resultingAssets_, bool partialLiquidity_);
+    returns (uint256 redeemableShares_, uint256 resultingAssets_);
 ```
 
 **Parameters**
@@ -296,7 +296,6 @@ function getRedeemableAmounts(
 | ------------------- | --------- | -------------------------------------------------------------- |
 | `redeemableShares_` | `uint256` | The amount of redeemable shares.                               |
 | `resultingAssets_`  | `uint256` | The corresponding amount of assets with the redeemable shares. |
-| `partialLiquidity_` | `bool`    | True if there is only partial liquidity.                       |
 
 ## Events
 

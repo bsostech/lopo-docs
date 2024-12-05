@@ -2,8 +2,8 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/interfaces/IIsleGlobals.sol)
 
-**Inherits:** [IIsleGlobalsEvents](/docs/reference/interfaces/IIsleGlobalsEvents.md),
-[IGovernable](/docs/reference/interfaces/IGovernable.md)
+**Inherits:** [IIsleGlobalsEvents](/docs/contracts/interfaces/IIsleGlobalsEvents.md),
+[IGovernable](/docs/contracts/interfaces/IGovernable.md)
 
 Interface for the IsleGlobals contract.
 

@@ -2,9 +2,9 @@
 
 [Git Source](https://github.com/isle-labs/isle-contract/blob/main/contracts/IsleGlobals.sol)
 
-**Inherits:** [IIsleGlobals](/docs/reference/interfaces/IIsleGlobals.md),
-[VersionedInitializable](/docs/reference/libraries/upgradability/VersionedInitializable.md),
-[Governable](/docs/reference/abstracts/Governable.md), UUPSUpgradeable
+**Inherits:** [IIsleGlobals](/docs/contracts/interfaces/IIsleGlobals.md),
+[VersionedInitializable](/docs/contracts/libraries/upgradability/VersionedInitializable.md),
+[Governable](/docs/contracts/abstracts/Governable.md), UUPSUpgradeable
 
 ## State Variables
 
